@@ -1,4 +1,4 @@
-# Luxury-Housing-Sales-Analysis-Bengaluru
+
 # Luxury Housing Sales Analysis - Bengaluru
 
 This project analyzes luxury housing sales in Bengaluru using **Python**, **SQL**, and **Power BI**. It covers data cleaning, feature engineering, database insertion, and interactive dashboard creation for insights on market trends, builder performance, and buyer behavior.
