@@ -74,9 +74,7 @@ SalesAnalysi_ds_project/
 ├─ README.md
 
 
----
 
-If you want, I can also **add badges for Python, SQL, and Power BI**, and a **table of key metrics** in the README to make it look professional for GitHub.  
 
-Do you want me to do that?
+
 
