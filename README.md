@@ -20,13 +20,8 @@ This project analyzes luxury housing sales in Bengaluru using **Python**, **SQL*
 
 ## 🧠 Step 2: SQL — Load Clean Data into RDBMS
 - Create appropriate SQL table schema for `property_transactions`.
-- Insert cleaned data into **MySQL/PostgreSQL** using Python (`SQLAlchemy` or `pymysql`).
-- Run initial SQL validation queries:
-  ```sql
-  SELECT COUNT(*) FROM property_transactions;
-  SELECT Booking_Status, COUNT(*) FROM property_transactions GROUP BY Booking_Status;
-  SELECT Developer_Name, AVG(Ticket_Price_Cr) FROM property_transactions GROUP BY Developer_Name;
-  
+- Insert cleaned data into MySQL using Python (`SQLAlchemy``).
+- 
 📊 Step 3: Power BI — Visualize via Direct SQL Connection
 Connect Power BI to the SQL database.
 Build relationships and DAX calculations.
@@ -69,4 +64,19 @@ Possession Status Analysis
 How does possession status affect buyer type and booking decisions?
 Visual: Clustered Column Chart — Possession_Status vs Booking_Status, colored by Buyer_Type.
 
+SalesAnalysi_ds_project/
+├─ PowerBI/
+│  └─ house_analysis.pbix
+├─ Data/
+│  └─ cleaned_property_transactions.csv
+├─ Scripts/
+│  └─ data_cleaning.py
+├─ README.md
+
+
+---
+
+If you want, I can also **add badges for Python, SQL, and Power BI**, and a **table of key metrics** in the README to make it look professional for GitHub.  
+
+Do you want me to do that?
 
